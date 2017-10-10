@@ -28,4 +28,5 @@ i. (I) Inheritence is a concept in OOP where a child class or set of classes inh
 (II) Polymorphism refers to the ability to process objects differently depending on their data type or class. An example of polymorphism would be an array of vehicles that can contain cars, scooters, motorcycles, etc.
 (III) Encapsulation is a concept in OOP where a class uses private variables in order to store data and mutator public functions in order to access or modify them.
 
-  
+
+7. The RoleGame prototype was an example of polymorphism because there was an abstract class that had the ability to manipulate several different classes of weapons and their data.  
