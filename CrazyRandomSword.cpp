@@ -3,7 +3,7 @@
 
 include "CrazyRandomSpear.h"
 
-double CommonSpear::hit(double armor) 
+double CrazyRandomSpear::hit(double armor) 
 {
 	double temp = armor/2;
 	int ignore = rand() % temp + 0;
