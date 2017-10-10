@@ -31,14 +31,28 @@ int main(int argc, char** argv) {
 
     double armor = 20;
 
-    Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
-    simulateWeapon(weapon, armor);
-    delete(weapon);
+	Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
-    weapon = WeaponFactory::getInstance()->getWeapon("spear");
-    simulateWeapon(weapon, armor);
-    delete(weapon);
+	weapon = WeaponFactory::getInstance()->getWeapon("spear");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
+
+	weapon = WeaponFactory::getInstance()->getWeapon("axe");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
+
+
+	weapon = WeaponFactory::getInstance()->getWeapon("random");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
+
+
+	weapon = WeaponFactory::getInstance()->getWeapon("tomahawk");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
     return 0;
 }
 
