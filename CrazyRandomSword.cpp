@@ -1,11 +1,16 @@
 //SS15h
-//crazyrandomspear.cpp
+//crazyrandomsword.cpp
 
-include "CrazyRandomSpear.h"
+#include "CrazyRandomSword.h"
 
-double CrazyRandomSpear::hit(double armor) 
+
+CrazyRandomSword::CrazyRandomSword() : Weapon("Crazy random sword", ((rand()%91 + 10) * 1.0))
 {
-	double temp = armor/2;
+	srand(time(NULL));
+}
+double CrazyRandomSword::hit(double armor) 
+{
+	int temp = armor/2;
 	int ignore = rand() % temp + 0;
 	double damage = hitPoints - (armor - ignore);
 	return damage;
