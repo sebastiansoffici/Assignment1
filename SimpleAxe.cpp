@@ -4,7 +4,7 @@
 
 #include "SimpleAxe.h"
 
-double CommonSpear::hit(double armor) 
+double SimpleAxe::hit(double armor) 
 {
 	if (armor > 0 && armor < 20)
 		armor = 0;
