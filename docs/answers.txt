@@ -1,0 +1,31 @@
+a. wc-dhcp112d180:docs sebastiansoffici$ git push 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 832 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/sebastiansoffici/Assignment1.git
+   fbdbe93..fbf3cc8  master -> master
+
+b. 9 commits. git shortlog was the command used.
+
+c. Wed Sep 27 16:31:42. git log .gitignore
+
+d. 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+   cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+e. (1) Allows multiple people to collaborate on different parts of a project without interference from one another.
+   (2) Ensures that unstable code is never committed to the main code base.
+
+f. Status shows the information about your current working directory, while log shows all information regarding committed project history.
+
+g. git log --follow Weapon.h
+
+h. git log --grep=file
+
+i. (I) Inheritence is a concept in OOP where a child class or set of classes inherit information from some larger class. An example would be a Car class inheriting features from a Vehicle class.
+(II) Polymorphism refers to the ability to process objects differently depending on their data type or class. An example of polymorphism would be an array of vehicles that can contain cars, scooters, motorcycles, etc.
+(III) Encapsulation is a concept in OOP where a class uses private variables in order to store data and mutator public functions in order to access or modify them.
+
+  
