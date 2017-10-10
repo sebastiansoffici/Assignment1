@@ -11,12 +11,12 @@
 /**
  * Defines the behavior of a crazy random sword (hitpoints = random(between 10 and 100), ignores r *andom amount of armor (0 to half armor)
  */
-class CommonSpear : public Weapon {
+class CrazyRandomSword : public Weapon {
 public:
 
-    CommonSpear() : Weapon("Crazy random sword", ((rand() % 91 + 10) * 1.0)) {
+    CrazyRandomSword() : Weapon("Crazy random sword", ((rand() % 91 + 10) * 1.0)) {
     }
-    virtual ~CommonSpear() {}; 
+    virtual ~CrazyRandomSword() {}; 
     virtual double hit(double armor);
 
 };
